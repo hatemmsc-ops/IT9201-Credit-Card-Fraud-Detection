@@ -1,6 +1,3 @@
-# IT9201-Credit-Card-Fraud-Detection
-Credit card fraud detection using Logistic Regression, Random Forest, and Gradient Boosting. IT9201 Machine Learning and Data Mining: MSc AI, Bahrain Polytechnic.
-
 # Credit Card Fraud Detection — IT9201 Machine Learning and Data Mining
 
 **Student:** Hatem Isa | ID: 202508993 | Programme: ICT9010
@@ -22,9 +19,9 @@ The workflow is implemented in both Python (Jupyter Notebook) and Orange 3 (no-c
 
 | Model | AUC | F1 (Fraud) | Precision (Fraud) |
 |---|---|---|---|
-| Logistic Regression | 0.974 | — | — |
-| Random Forest | — | 0.851 | 0.937 |
-| Gradient Boosting | Underperformed | — | — |
+| Logistic Regression | 0.974 | N/A | N/A |
+| Random Forest | N/A | 0.851 | 0.937 |
+| Gradient Boosting | Underperformed | N/A | N/A |
 
 Statistical comparison (LR vs RF): p = 0.003, confirming a significant difference.
 Evaluation strategy: 5-fold stratified cross-validation.
@@ -34,9 +31,11 @@ Evaluation strategy: 5-fold stratified cross-validation.
 ## Repository Structure
 
 ```
-├── Code - Notebooks/
-│   └── IT9201_Credit_Card_Fraud_Detection_Final.ipynb   # Main Python notebook
-├── IT9201_Unsupervised_Hatem_202508993.ows              # Orange 3 workflow
+├── Literature/                                          # 15 reference papers
+├── Notebook(s).zip                                      # Jupyter notebook + Orange 3 workflow
+├── Viva Presentation.zip                                # Viva slides PDF
+├── Weekly Log.zip                                       # Weekly progress log
+├── IT9201_202508893_Report.pdf                          # Final project report
 ├── dataset_download.txt                                 # Instructions to obtain the dataset
 └── README.md
 ```
@@ -53,10 +52,10 @@ See `dataset_download.txt` for download instructions.
 
 ## How to Run
 
-1. Download the dataset and place `creditcard.csv` in the project root.
-2. Open `Code - Notebooks/IT9201_Credit_Card_Fraud_Detection_Final.ipynb` in Jupyter Notebook or JupyterLab.
+1. Download the dataset and place `creditcard.csv` in the same directory as the notebook.
+2. Extract `Notebook(s).zip` and open `IT9201_Credit_Card_Fraud_Detection.ipynb` in Jupyter Notebook or JupyterLab.
 3. Run all cells in order.
-4. To view the no-code workflow, open `IT9201_Unsupervised_Hatem_202508993.ows` in Orange 3.
+4. To view the no-code workflow, open the `.ows` file in Orange 3.
 
 ### Dependencies
 
