@@ -1,0 +1,15 @@
+Dataset: Credit Card Fraud Detection
+Source: Kaggle
+URL: https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
+Provider: Machine Learning Group, Universite Libre de Bruxelles (ULB)
+
+Instructions:
+1. Visit the URL above
+2. Sign in to your Kaggle account
+3. Click the Download button to download creditcard.csv
+4. Place creditcard.csv in this Dataset folder
+
+File: creditcard.csv
+Size: ~144MB
+Rows: 284,807 transactions
+Features: 31 (Time, V1-V28, Amount, Class)
