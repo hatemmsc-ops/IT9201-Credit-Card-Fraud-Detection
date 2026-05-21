@@ -83,6 +83,5 @@ This project used the following AI tools in accordance with course guidelines:
 
 - **Claude (Anthropic)** — code debugging, report structuring, and workflow guidance
 - **Perplexity AI** — literature search and source verification
-- **StealthWriter** — report humanisation and paraphrase refinement
 
 All AI-assisted content was reviewed, verified, and edited by the student.
