@@ -30,14 +30,14 @@ Evaluation strategy: 5-fold stratified cross-validation.
 
 ## Repository Structure
 
-'''
+```
 ├── Notebook(s).zip                                      # Jupyter notebook + Orange 3 workflow
 ├── Viva Presentation.zip                                # Viva slides PDF
 ├── Weekly Log.zip                                       # Weekly progress log
 ├── IT9201_202508893_Report.pdf                          # Final project report
 ├── dataset_download.txt                                 # Instructions to obtain the dataset
 └── README.md
-'''
+```
 
 ---
 
